@@ -11,6 +11,7 @@
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
         <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js"></script>
         <title>Cuidando do seu Jardim</title>
     </head>
 
@@ -44,7 +45,7 @@
             <h2>3x de R$ 5,26 </h2>
             <p> ( Ou à Vista de R$ 14,90 )</p>
     
-            <button class="button"><a href="https://sun.eduzz.com/1874394"></a> Sim! Eu Quero Comprar Agora! </button>
+            <button id="meuBotao" class="button" onclick="location.href='https://sun.eduzz.com/1874394'" target="_blank" > Sim! Eu Quero Comprar Agora! </button>
         </div>
 
          <div class="vantagem">
@@ -112,11 +113,11 @@
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 Quanto o Como cuidar do Seu Jardim custa?
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                             <p>O Como cuidar do Seu Jardim custa neste momento 3x de R$ 5,26 (ou R$ 14,90 à vista), mas não garantimos que esse
                                 será o preço durante muito tempo. Então aproveite!
@@ -144,7 +145,7 @@
                             Tenho alguma garantia?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                             <p>
                             Você tem 7 dias para testar o Como cuidar do Seu Jardim sem riscos. Se por qualquer razão achar que o investimento não
@@ -157,11 +158,11 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     Preciso conhecer bem sobre o assunto para poder usar o Como cuidar do Seu Jardim?
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                 <p>
                                     De forma alguma! O Como cuidar do Seu Jardim foi pensado para atender tanto iniciantes, quanto pessoas com mais experiência. 
@@ -176,8 +177,8 @@
          </section>
 
          <footer>
-            Cuidando do Seu Jardim &copy; 2023 - Todos os Direitos Reservados.
-            <p> Desenvolvido por <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <a href="#">@DijePages</a> </p>
+            <p>Cuidando do Seu Jardim &copy; 2023 - Todos os Direitos Reservados.</p>
+            <p> Desenvolvido por DijePages<a href="https://www.facebook.com/profile.php?id=100091794792660&mibextid=ZbWKwL"> <i class="fab fa-facebook"></i></a>  <a href="https://instagram.com/dijepages?igshid=ZDdkNTZiNTM="> <i class="fab fa-instagram"></i></a> </p>
          </footer>
 
         

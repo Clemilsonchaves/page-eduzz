@@ -234,6 +234,10 @@
 }
 
 .accordion-button{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 3px;
     background-color: #800080;
     font-family: 'roboto', sans-serif;
     font-size: 0.6em;
@@ -260,7 +264,7 @@ footer {
     justify-content: center;
     background-color: #808080;
     min-width: 260px;
-    padding: 40px;
+    padding: 20px;
     font-family: 'roboto', sans-serif;
     font-size: 1em;
     font-weight: 300;
@@ -269,18 +273,18 @@ footer {
 }
 
 footer p {
-    margin-top: 20px;
+    margin-top: 10px;
     padding-bottom: 0px;
 
 }
 
 .fa-instagram {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #DC143C;
 }
 
 .fa-facebook {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #000080;
 }
 footer a { 
@@ -292,11 +296,17 @@ footer a {
 
 @media (max-width:820px) {
 
-
+    
     .main p {
+        max-width: 95%;
+        width: 100%;
+        max-height:80%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+        margin-top: 40px;
         padding: 10px;
-        text-align: justify;
-        border: 1px solid black;
+
     }
     .preco h2 {
         font-size: 2em;
@@ -307,7 +317,28 @@ footer a {
         padding: 8px;
 
     }
+    .vantagem h2 {
+        max-width: 95%;
+        width: 100%;
+        max-height:80%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        padding: 10px;
 
+    }
+    .vantagem p {
+        max-width: 95%;
+        width: 100%;
+        max-height:80%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        padding: 10px;
+
+    }
     .vantagem p {
         font-size: 0.8em;
         padding: 8px;
@@ -323,7 +354,7 @@ footer a {
     }
 
     .garantia-content {
-        max-width: 80%;
+        max-width: 95%;
         width: 100%;
         max-height:80%;
         margin-left: 16px;
@@ -336,7 +367,6 @@ footer a {
 
     .garantia-content h2 {
         font-size: 1.5em;
-        text-align: center;
     }
 
     .garantia-content p {
@@ -349,9 +379,28 @@ footer a {
 
     }
 
-    .acordeon-h2 {
+    .accordion {
+        max-width: 95%;
+        width: 100%;
+        max-height:80%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 20px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        padding: 10px;
+
+    }
+
+    .acordeon-h2 {
+        max-width: 90%;
+        width: 100%;
+        max-height:80%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        padding: 10px;
+
         
     }
     
@@ -359,6 +408,15 @@ footer a {
         font-size: 0.8em;
     }
     
+    .accordion-button {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: 0.5em;
+        padding-top: 20px;
+        padding-bottom: 3px;
+    }
     .accordion-button h2 {
         font-size: 0.8em;
     }
@@ -368,7 +426,8 @@ footer a {
         display: flex;
         align-items: center;
         text-align: center;
-    }
 
+    }
+    
 
 }
